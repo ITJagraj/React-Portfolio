@@ -7,21 +7,20 @@ function SingleCategory({ currentCategory }) {
     const [projects] = useState([
         {
             name: "Run Buddy",
-            github: "https://github.com/yonatanhaddish/run-buddy",
+            github: "https://github.com/ITJagraj/ITJagraj.github.io",
             tools: "HTML, CSS",
-            website: "https://yonatanhaddish.github.io/run-buddy/"
+            website: "https://itjagraj.github.io/"
         },
         {
-            name: "Task Master",
-            github: "https://github.com/yonatanhaddish/taskmaster-pro",
-            tools: "HTML, CSS, JavaScript",
+            name: "Employee-tracker",
+            github: "https://github.com/ITJagraj/employee-tracker",
+            tools: "MySQL2",
             website: "https://yonatanhaddish.github.io/taskmaster-pro/"
         },
         {
-            name: "Quiz app",
-            github: "https://github.com/yonatanhaddish/quiz-app",
-            tools: "HTML, CSS, JavaScript",
-            website: "https://yonatanhaddish.github.io/quiz-app/"
+            name: "Note-taker",
+            github: "https://github.com/ITJagraj/Note-taker",
+            tools: "HTML, CSS, JavaScript, heroku",
         },
         {
             name: "Weather app",
@@ -35,12 +34,6 @@ function SingleCategory({ currentCategory }) {
             tools: "HTML, JavaScript",
             website: "https://yonatanhaddish.github.io/robot-gladiators/"
         },
-        {
-            name: "Food Festival",
-            github: "https://github.com/yonatanhaddish/food-festival",
-            tools: "HTML, CSS, JavaScript",
-            website: "https://yonatanhaddish.github.io/food-festival/"
-        }
     ]);
     const [currentProject, setCurrentProject] = useState(projects[0]);
     const { name } = currentCategory;
