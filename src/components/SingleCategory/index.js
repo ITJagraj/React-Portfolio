@@ -12,10 +12,9 @@ function SingleCategory({ currentCategory }) {
             website: "https://itjagraj.github.io/"
         },
         {
-            name: "Employee-tracker",
-            github: "https://github.com/ITJagraj/employee-tracker",
-            tools: "MySQL2",
-            website: "https://yonatanhaddish.github.io/taskmaster-pro/"
+            name: "Code-refactor",
+            github: "https://github.com/ITJagraj/Code-refactor",
+            tools: "HTML, CSS",
         },
         {
             name: "Note-taker",
@@ -24,15 +23,15 @@ function SingleCategory({ currentCategory }) {
         },
         {
             name: "Weather app",
-            github: "https://github.com/yonatanhaddish/weather-app",
+            github: "https://github.com/ITJagraj/weather-dashboard",
             tools: "HTML, CSS, JavaScript",
-            website: "https://yonatanhaddish.github.io/weather-app/"
+            website: "https://itjagraj.github.io/weather-dashboard/"
         },
         {
             name: "Robot Gladiators",
-            github: "https://github.com/yonatanhaddish/robot-gladiators",
-            tools: "HTML, JavaScript",
-            website: "https://yonatanhaddish.github.io/robot-gladiators/"
+            github: "https://github.com/ITJagraj/code-quiz",
+            tools: "HTML, CSS, JavaScript",
+            website: "https://itjagraj.github.io/code-quiz/"
         },
     ]);
     const [currentProject, setCurrentProject] = useState(projects[0]);
