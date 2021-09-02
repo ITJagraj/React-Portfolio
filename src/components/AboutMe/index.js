@@ -10,7 +10,7 @@ function AboutMe() {
                 alt="profile"
                 className="img-thumbnail mx-1"
                 key="profile" /> */}
-            <p className="about-me">My name is Jagraj and I am a full stack developer. Currently living in canada and I am open to share work with projects.
+            <p className="about-me">My name is Jagraj and I am a full stack developer. Currently living in canada and I am open to work with projects.
             </p>
         </section>
     )

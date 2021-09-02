@@ -28,10 +28,9 @@ function SingleCategory({ currentCategory }) {
             website: "https://itjagraj.github.io/weather-dashboard/"
         },
         {
-            name: "Robot Gladiators",
-            github: "https://github.com/ITJagraj/code-quiz",
-            tools: "HTML, CSS, JavaScript",
-            website: "https://itjagraj.github.io/code-quiz/"
+            name: "Employer Tracker",
+            github: "https://github.com/ITJagraj/employee-tracker",
+            tools: "NodeJs, Inquirer, JavaScript",
         },
     ]);
     const [currentProject, setCurrentProject] = useState(projects[0]);
